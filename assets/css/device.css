@@ -1,0 +1,106 @@
+@media only screen and (min-width:1001px){
+header{padding:2.857rem 0;}
+.head-right::before{display:block;}
+.techPortrait-img{display:block;}
+.techTabs > li:hover{border:1px solid var(--white);}
+.destinationNav ul li a:hover{padding-bottom:0.8em;border-bottom:3px solid rgba(255,255,255,0.5);}
+}
+@media only screen and (min-width:601px){
+.line-menu-sec{display:none;}
+nav ul .active{border-bottom:3px solid var(--white) !important;}
+nav ul .nav-a:hover.nav-a{border-bottom:2px solid rgba(255,255,255,0.5);cursor:var(--CustomCursor);}
+}
+@media only screen and (max-width:1600px){
+nav ul{gap:4em;}
+}
+@media only screen and (max-width:1300px){
+nav ul{gap:2em;}
+}
+@media only screen and (max-width:1024px){
+.techContentSec{margin-left:6%;}
+.techTabs a{width:60px;height:60px;}
+.techContentSec{gap:25px;}
+}
+@media only screen and (max-width:1000px){
+.homeContent{background-image:url(../home/background-home-tablet.jpg);}
+.destinationContent{background-image:url(../destination/background-destination-tablet.jpg);}
+.crewContent{background-image:url(../crew/background-crew-tablet.jpg);}
+.technologyContent{background-image:url(../technology/background-technology-tablet.jpg);}
+.header-lh-icon{margin:0 2rem;}
+.head-right{width:90%;}
+.homeContentSec{flex-direction:column;padding-top:10em;padding-bottom:10em;}
+.homeExploreBtn{justify-content:center;margin-top:5rem;}
+.homeText{width:85%;text-align:center;}
+nav ul{gap:5em;}
+.contentSec{padding:3em 0 3em;}
+.planetSec,.crewSec{flex-direction:column;text-align:center;}
+.destinationNav ul{justify-content:center;}
+.destinationTextSec{width:55%;}
+ .destinationNav{margin-bottom:3em;margin-left:0%;}
+.destinationNav{position:relative;left:50%;transform:translateX(-50%);}
+.crewText{width:70%;}
+.crewImg{margin-top:2em;}
+.crewSliderSec .slick-dots{justify-content:center;gap:15px;}
+.crewSliderSec .slick-dots li,.crewSliderSec .slick-dots li button,.crewSliderSec .slick-dots li button:before{width:10px;height:10px;}
+.techContentSec{flex-direction:column;margin-left:0;}
+.techNav{display:flex;justify-content:center;}
+.techNav ul{flex-direction:row;}
+.tech-landscape-img{display:block;}
+.techSec{flex-direction:column-reverse;gap:1.5em;}
+.techImg{max-width:100%;}
+.techText{width:60%;text-align:center;}
+.techTabs a{width:56px;height:56px;}
+.techHeading{margin-bottom:3em;}
+}
+@media only screen and (max-width:768px){
+nav ul{gap:3em;}
+.destinationTextSec{width:80%;}
+.crewText{width:100%;}
+.crewImg{max-width:50%;}
+}
+@media only screen and (max-width:600px){
+:root{--TP5LetterSpacing:4px;--TP7-8LetterSpacing:2px;--TP1FS:80px;--TP2FS:56px;--TP3FS:24px;--TP4FS:18px;--TP5-6FS:16px;--TP7FS:14px;--TP8FS:14px;--TP9FS:15px;}
+.homeExploreBtn span::after{width:250px;height:250px;}
+header{padding:1rem 0;}
+.head-right{/* display:none;*/
+ position:fixed;top:0px;right:0px;z-index:999;height:100vh;width:50%;margin-right:-999px;transition:0.3s ease;}
+.hamOn{margin-right:0;}
+nav ul{margin-top:5rem;flex-direction:column;align-items:self-start;margin-left:2rem;gap:40px;padding-right:0;}
+nav ul>*{width:100%;}
+.nav-a{padding:10px 0;display:flex;}
+nav ul .active{border-right:2px solid var(--white) !important;}
+nav ul .nav-a:hover.nav-a{border-right:2px solid rgba(255,255,255,0.5);cursor:var(--CustomCursor);}
+.homeContentSec{padding-top:8em;padding-bottom:5em;}
+.homeText{width:85%;}
+.destinationNav{bottom:0%;}
+.techTabs a{width:40px;height:40px;}
+.techText{width:70%;}
+.techHeading{margin-bottom:0em;}
+}
+@media only screen and (max-width:425px){
+.homeContent{background-image:url(../home/background-home-mobile.jpg);}
+.destinationContent{background-image:url(../destination/background-destination-mobile.jpg);}
+.crewContent{background-image:url(../crew/background-crew-mobile.jpg);}
+.technologyContent{background-image:url(../technology/background-technology-mobile.jpg);}
+.homeContentSec>*{width:95%;}
+.destinationSpeci{flex-direction:column;gap:3em;}
+.destinationSpeci>*{width:100%;}
+.destinationSpeci div p:last-child{font-size:28px;}
+.destinationTextSec{width:100% !important;}
+.destinationImg{margin-bottom:3rem;}
+.planetSec>*{width:60%;}
+.destinationNav{bottom:5%;}
+.destinationHeading,.techHeading{margin-bottom:5em;}
+.crewImg{max-width:90%;}
+.crewheading{margin-bottom:3em;}
+.techHeading{margin-bottom:0em;}
+nav ul{margin-left:1rem;}
+}
+@media only screen and (max-width:375px){
+.destinationNav{bottom:10%;}
+.techText{width:85%;}
+.head-right{width:55%;}
+}
+@media only screen and (max-width:320px){
+.destinationNav{bottom:15%;}
+}
