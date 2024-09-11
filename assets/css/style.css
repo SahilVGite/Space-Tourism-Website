@@ -34,8 +34,8 @@ nav ul a span{font-weight:bold;letter-spacing:var(--TP7-8LetterSpacing);}
 .homeText{display:flex;flex-direction:column;}
 .homeExploreBtn span{font-size:var(--TP4FS);padding:3.73em 1.95em;background-color:var(--white);border-radius:50%;cursor:var(--CustomCursor);position:relative;z-index:1;}
 .homeExploreBtn span a{font-size:var(--TP4FS);line-height:var(--TP4LineHeight);font-family:var(--BellefairFont);color:var(--blue900);}
-.homeExploreBtn span::after{content:" ";position:absolute;z-index:-1;background-color:rgba(255,255,255,0.1);width:400px;height:400px;top:50%;left:50%;transform:translate(-50%,-50%);border-radius:50%;display:none;}
-.homeExploreBtn span:hover::after{display:block;}
+.homeExploreBtn span::after{content:" ";position:absolute;z-index:-1;background-color:rgba(255,255,255,0.1);width:400px;height:400px;top:50%;left:50%;transform:translate(-50%,-50%);border-radius:50%;opacity: 0; transition: 0.5s;}
+.homeExploreBtn span:hover::after{opacity: 1;}
 .homeText p:first-child{font-size:var(--TP5-6FS);letter-spacing:var(--TP5LetterSpacing);font-family:var(--BarlowCondensedFont);color:var(--white);width:100%;float:left;color:var(--blue300);}
 .homeText h1{font-size:var(--TP1FS);line-height:var(--TP1LineHeight);font-family:var(--BellefairFont);color:var(--white);width:100%;float:left;font-weight:100;}
 .homeText p:last-child{font-size:var(--TP9FS);line-height:var(--TP9LineHeight);font-family:var(--BarlowCondensedFont);color:var(--white);width:100%;float:left;color:var(--blue300);letter-spacing:1px;font-weight:lighter;}
